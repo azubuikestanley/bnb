@@ -167,39 +167,86 @@ function Home() {
             <div className="container">
                 <div className="row">
                     <div className="card-deck">
-                        <div className="card">
-                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
-                            <div className="card-body">
-                                <h5 className="card-title">Amala</h5>
-                                <p className="card-text">This can be delivered within 1hr</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card">
-                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
-                            <div className="card-body">
-                                <h5 className="card-title">Ewedu</h5>
-                                <p className="card-text">This can be delivered within 1hr</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card">
-                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
-                            <div className="card-body">
-                                <h5 className="card-title">Ewedu</h5>
-                                <p className="card-text">This can be delivered within 1hr</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                         </div>
-                        <div className="card">
-                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
-                            <div className="card-body">
-                                <h5 className="card-title">Amala</h5>
-                                <p className="card-text">This can be delivered within 1hr</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        <div className="col-lg-3 col-md-6 col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
                             </div>
                         </div>
-
+                        <div className="col-lg-3 col-md-6 col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md- col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md- col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-md- col-sm-12 mt-1">
+                            <div className="card">
+                                <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                                <div className="card-body">
+                                    <h5 className="card-title">Amala</h5>
+                                    <p className="card-text">This can be delivered within 1hr</p>
+                                    <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     
@@ -211,6 +258,5 @@ function Home() {
         </HomeWrapper>
     )
 }
-
 
 export default Home;
