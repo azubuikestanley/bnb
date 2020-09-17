@@ -127,13 +127,8 @@ const HomeWrapper = styled.div`
             }
         }
         .main-top-left{
-            
             .image-top {
-                display: flex;
-                justify-content: center;
-                margin-top: -130px;
-                right: 97px;
-                width: 23rem!important;
+                display: none;
             }
         }
     }
@@ -168,34 +163,60 @@ function Home() {
                 <h2 className="d-flex justify-content-center menustyle">MENU</h2>
                 <h6 className="d-flex justify-content-center menustyle2">Discover a new level of taste</h6>
             </div>
-
             
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    {/* <div className="col-lg-3 col-md-6 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={100} />
                         <p className="d-flex justify-content-center mt-5">Drinks</p>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    <div className="col-lg-3 col-md-4 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={70} />
                         <p className=" d-flex justify-content-center mt-5">Meat</p>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    <div className="col-lg-3 col-md-4 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={70} />
                         <p className=" d-flex justify-content-center mt-5">Fish</p>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    <div className="col-lg-3 col-md-4 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={70} />
                         <p className=" d-flex justify-content-center mt-5">Chicken</p>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    <div className="col-lg-3 col-md-4 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={70} />
                         <p className=" d-flex justify-content-center mt-5">Name</p>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 menuCard1">
+                    <div className="col-lg-3 col-md-4 col-sm-12 menuCard1">
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" height={70} />
                         <p className=" d-flex justify-content-center mt-5">Name</p>
+                    </div> */}
+                    <div className="card-deck">
+                        <div className="card">
+                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                            <div className="card-body">
+                                <h5 className="card-title">Amala</h5>
+                                <p className="card-text">This can be delivered within 1hr</p>
+                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                            <div className="card-body">
+                                <h5 className="card-title">Ewedu</h5>
+                                <p className="card-text">This can be delivered within 1hr</p>
+                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src={require("../../src/components/assets/img/meal.png")} alt="Home-meal" className="card-img-top"  />
+                            <div className="card-body">
+                                <h5 className="card-title">Ewedu</h5>
+                                <p className="card-text">This can be delivered within 1hr</p>
+                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
