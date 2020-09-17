@@ -28,8 +28,9 @@ const HomeWrapper = styled.div`
         }
         p{
             font-style: normal;
-            font-weight: 650;
-            text-align: justify;
+            font-size: 20px;
+            font-weight: 450;
+            text-align: left;
             letter-spacing: 0.03em;
             color: #2F2F2F;
         }
@@ -37,9 +38,11 @@ const HomeWrapper = styled.div`
         a {
             background-color:  #FFAF0D;
             color: white;
-            padding: 7px 40px;
+            padding: 7px 95px;
             border-radius: 50px;
+            text-align: center;
             text-decoration: none;
+            margin-left: 33px;
         }
         a:hover{
             background-color: white;
@@ -52,7 +55,7 @@ const HomeWrapper = styled.div`
         right: -15px;
 
         .image-top {
-            margin-top: -350px;
+            margin-top: -370px;
             position: absolute;
             right: 50px;
         }
@@ -86,6 +89,39 @@ const HomeWrapper = styled.div`
         }
     }
     
+    @media (max-width: 768px) {
+        .main-top {
+            margin-top: 50px;
+
+            h4{
+            font-style: normal;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: justify;
+            letter-spacing: 0.02em;
+            color: #2F2F2F;
+
+            span.style-45{
+                color: #FFAF0D;
+                font-size: 45px;
+
+            }
+        }
+    }
+        .main-top-left{
+            position: relative;
+            right: -15px;
+
+                .image-top {
+                    margin-top: -170px;
+                    position: absolute;
+                    right: 100px;
+                    width: 19rem!important;
+                }
+            }
+        }
+    }
+    
 `;
  
 
@@ -99,9 +135,9 @@ function Home() {
                         <div className="container">
                             <div className="row">
                                 <h4 className="ml-5">Get Your Favourite Food Delivered in <br/><span className="style-45">45</span> Minutes</h4>
-                                <p>Local. Vegetarian. Continental.</p>
-                                <Link to="/FoodList">Order now</Link>
+                                <p className="ml-5">Local. Vegetarian. Continental.</p> <br /> 
                             </div>
+                            <Link to="/FoodList">Order now</Link>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 main-top-left">
