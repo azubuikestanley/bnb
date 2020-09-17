@@ -93,12 +93,12 @@ function Food(props) {
     const arr1 = props.data;
     const listItems = arr1.map(item => 
         <li 
-            className="listStyle" 
+            className="d-flex justify-content-center mb-2 listStyle" 
             key={item.id} 
             name={item.Foodname} 
             value={item.Foodname}>
-                    {item.Foodname} 
-                <span>{item.price} 
+                    {item.Foodname} - Price: {item.Price} 
+                <span className="ml-3">
                     <div></div>
                     <button onclick={handleAdd} className="btn-style-minus">-</button>
                     <button className="btn-style-add">+</button>
