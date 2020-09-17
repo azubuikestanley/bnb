@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-
 const HomeWrapper = styled.div`
 	.main-top {
         margin-top: 180px;
