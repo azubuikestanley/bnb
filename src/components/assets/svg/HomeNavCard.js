@@ -4,7 +4,11 @@ import styled from 'styled-components';
 const HomeNavCardWrapper = styled.div`
 	svg-container {
         width: 95;
-	}
+    }
+    
+    @media (max-width: 425px) {
+        display: none;
+    }
 `;
 
 const HomeNavCard = props => (

@@ -96,31 +96,48 @@ const HomeWrapper = styled.div`
             h4{
             font-style: normal;
             font-size: 30px;
-            font-weight: bold;
-            text-align: justify;
             letter-spacing: 0.02em;
-            color: #2F2F2F;
 
             span.style-45{
-                color: #FFAF0D;
                 font-size: 45px;
-
-            }
-        }
-    }
-        .main-top-left{
-            position: relative;
-            right: -15px;
-
-                .image-top {
-                    margin-top: -170px;
-                    position: absolute;
-                    right: 100px;
-                    width: 19rem!important;
                 }
             }
         }
+        .main-top-left{
+
+            .image-top {
+                margin-top: -170px;
+                right: 97px;
+                width: 23rem!important;
+            }
+        }
     }
+    @media (max-width: 425px) {
+        .main-top {
+            margin-top: 20px;
+
+            h4{
+            font-style: normal;
+            font-size: 25px;
+            letter-spacing: 0.02em;
+
+            span.style-45{
+                font-size: 45px;
+                }
+            }
+        }
+        .main-top-left{
+            
+            .image-top {
+                display: flex;
+                justify-content: center;
+                margin-top: -130px;
+                right: 97px;
+                width: 23rem!important;
+            }
+        }
+    }
+
     
 `;
  
@@ -141,7 +158,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 main-top-left">
-                        <HomeNavCard className="svgStyle"/>
+                        <HomeNavCard />
                         <img src={require("../../src/components/assets/img/meal.png")} alt="Home-nav-meal" className="image-top" />
                     </div>
                 </div>
