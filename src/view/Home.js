@@ -12,12 +12,19 @@ const HomeWrapper = styled.div`
         margin-top: 180px;
 
         
-        h3{
+        h4{
             font-style: normal;
+            font-size: 55px;
             font-weight: bold;
             text-align: justify;
             letter-spacing: 0.03em;
             color: #2F2F2F;
+
+            span.style-45{
+                color: #FFAF0D;
+                font-size: 65px;
+
+            }
         }
         p{
             font-style: normal;
@@ -91,7 +98,7 @@ function Home() {
                     <div className="col-lg-6 col-md-6 col-sm-12 main-top">
                         <div className="container">
                             <div className="row">
-                                <h3>Get Your Favourite Food Delivered in <span>45</span> Minutes</h3>
+                                <h4 className="ml-5">Get Your Favourite Food Delivered in <br/><span className="style-45">45</span> Minutes</h4>
                                 <p>Local. Vegetarian. Continental.</p>
                                 <Link to="/FoodList">Order now</Link>
                             </div>
