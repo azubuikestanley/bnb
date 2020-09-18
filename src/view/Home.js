@@ -60,14 +60,14 @@ const HomeWrapper = styled.div`
             right: 50px;
         }
     }
-    .menustyle{
+    .menustyle,.specialstyle{
         margin-top: 20px;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
         color: #2F2F2F;
     }
-    .menustyle2{
+    .menustyle2, .specialstyle2{
         font-style: normal;
         font-weight: 500;
         font-size: 24px;
@@ -87,6 +87,25 @@ const HomeWrapper = styled.div`
             display: flex;
             justify-content: center;
         }
+    }
+    .star{
+        margin-top: 100px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFAF0D;
+    }
+    .card {
+        background: #E5E5E5;
+        border-radius: 8px;
+    }
+    
+    .download-app {
+        background-color:  #FFAF0D;
+        color: white;
+        padding: 7px 25px;
+        border-radius: 50px;
+        width: 250px;
     }
     
     @media (max-width: 768px) {
@@ -191,7 +210,7 @@ function Home() {
                             <div className="card">
                                 <img src={require("../../src/components/assets/img/rice.png")} alt="Home-meal" className="card-img-top"  />
                                 <div className="card-body">
-                                    <h5 className="card-title">Rice,Plantain and fish </h5>
+                                    <h5 className="card-title">Rice and fish </h5>
                                     <p className="card-text">This can be delivered within 1hr</p>
                                     <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
@@ -248,9 +267,17 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    
-                    
                 </div>
+            </div>
+
+            <div className="d-flex justify-content-center star">*****</div>
+
+            <div className="container mt-5">
+                <h2 className="d-flex justify-content-center specialstyle">Special Offers</h2>
+                <h6 className="d-flex justify-content-center specialstyle2">
+                    Get 15% off your First Meal when you order directly from our mobile app
+                </h6>
+                <div className="d-flex justify-content-center download-app">Download App</div>
             </div>
 
             <Footer />
